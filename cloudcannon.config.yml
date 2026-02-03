@@ -1,0 +1,17 @@
+# CloudCannon Configuration
+source: .
+output: .
+
+# Global configuration
+timezone: America/New_York
+
+# Editor configuration
+_inputs:
+  date:
+    type: date
+    instance_value: now
+
+# Paths
+paths:
+  uploads: assets/images
+  static: assets
