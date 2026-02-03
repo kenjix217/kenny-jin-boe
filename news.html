@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Discussion - Kenny Jin for BOE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">Kenny Jin</a></div>
+                <ul>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#platform">Platform</a></li>
+                    <li><a href="news.html">News & Discussion</a></li>
+                    <li><a href="index.html#vote">How to Vote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header" style="background: var(--primary); color: white; padding: 4rem 0; text-align: center;">
+        <div class="container">
+            <h1>Community Discussion</h1>
+            <p>Share your thoughts, ask questions, and discuss the future of Jericho schools.</p>
+        </div>
+    </section>
+
+    <section class="section-light">
+        <div class="container">
+            <!-- News/Updates Section (Editable) -->
+            <div class="editable" style="margin-bottom: 3rem;">
+                <h2>Latest Updates</h2>
+                <div class="news-item" style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid var(--accent);">
+                    <h3>Campaign Kickoff!</h3>
+                    <p><em>February 2, 2026</em></p>
+                    <p>Welcome to the digital town hall. I am running to bring transparency back to our Board of Education.</p>
+                </div>
+            </div>
+
+            <!-- Discussion Embed -->
+            <div id="discussion-area" style="background: white; padding: 2rem; border-radius: 8px; margin-top: 2rem;">
+                <h2>Join the Conversation</h2>
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://kenny-jin-boe.disqus.com/embed.js'; // Placeholder ID
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Kenny Jin for Jericho BOE. Paid for by Friends of Kenny Jin.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
